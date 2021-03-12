@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
         setupViews()
     }
 
-    fun setupViews()
+    private fun setupViews()
     {
         var navHostFragment = supportFragmentManager.findFragmentById(R.id.fragNavHost) as NavHostFragment
         navController = navHostFragment.navController

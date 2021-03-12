@@ -23,7 +23,7 @@ class NotificationsFragment : Fragment() {
         setupViews()
     }
 
-    fun setupViews()
+    private fun setupViews()
     {
         btnNotificationDetails.setOnClickListener {
             findNavController().navigate(R.id.action_notificationsFragment_to_notificationDetailsFragment)
